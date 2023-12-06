@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+#menu {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.price {
+    font-weight: bold;
+}
+
+#carrinho {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+#carrinho-lista {
+    list-style: none;
+    padding: 0;
+}
+
+#carrinho-lista li {
+    margin-bottom: 10px;
+}
+
+#total {
+    font-weight: bold;
+}

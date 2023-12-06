@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Venda de Salgados</title>
+</head>
+<body>
+    <header>
+        <h1>Venda de Salgados Online</h1>
+    </header>
+
+    <section id="menu">
+        <h2>Cardápio</h2>
+        <div class="item">
+            <img src="salgado1.jpg" alt="Salgado 1">
+            <h3>Salgado 1</h3>
+            <p>Descrição do salgado 1. Lorem ipsum dolor sit amet.</p>
+            <p class="price">R$ 5,00</p>
+            <button onclick="adicionarAoCarrinho('Salgado 1', 5.00)">Adicionar ao Carrinho</button>
+        </div>
+
+        <!-- Adicione mais itens conforme necessário -->
+
+    </section>
+
+    <section id="carrinho">
+        <h2>Carrinho</h2>
+        <ul id="carrinho-lista"></ul>
+        <p id="total">Total: R$ 0,00</p>
+        <button onclick="finalizarCompra()">Finalizar Compra</button>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
